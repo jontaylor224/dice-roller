@@ -1,5 +1,37 @@
 /* Write your CSS Here. */
+* {
+  box-sizing: border-box;
+}
 
 button {
   cursor: pointer;
+}
+
+#graph {
+  display: flex;
+}
+
+.barcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-color: lightgrey;
+  width: 150px;
+  height: 570px;
+  margin: 10px 5px;
+}
+
+.bartitle {
+  background-color: lightgrey;
+  font-size: small;
+  height: 70px;
+  flex-shrink: 0;
+}
+
+.bargraph {
+  color: white;
+  background-color: violet;
+  width: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
