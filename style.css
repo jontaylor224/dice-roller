@@ -29,9 +29,15 @@ button {
 }
 
 .bargraph {
+  display: flex;
   color: white;
   background-color: violet;
   width: 100%;
   flex-grow: 0;
   flex-shrink: 0;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  color: black;
+  font-size: larger;
 }

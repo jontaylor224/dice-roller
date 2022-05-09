@@ -32,6 +32,7 @@ function renderGraph() {
       newDiv.classList.add("bargraph");
       let barHeight = (value / maxValue) * 500;
       newDiv.style.height = barHeight + "px";
+      newDiv.innerText = `${value}`
 
       barContainer.append(newDiv);
       graphOutput.append(barContainer);
